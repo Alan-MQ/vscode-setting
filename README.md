@@ -1,7 +1,3 @@
-Sure! Here’s a polished version of your README:
-
----
-
 # VSCode File Preview Feature
 
 ### Purpose
@@ -35,7 +31,3 @@ Now you can experience the file preview feature!
 
 ### Contribution
 I gathered this code from various blogs and ChatGPT. This repository could benefit from your contributions! Any thoughts or improvements are welcome!
-
----
-
-Feel free to let me know if you need any further adjustments!
