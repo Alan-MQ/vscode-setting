@@ -1,0 +1,71 @@
+/* Command palette text input */
+.quick-input-filter .monaco-inputbox {
+  border-radius: 12px !important;
+  padding: 8px !important;
+  border: none !important;
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  font-family: "Geist Mono", monospace !important;
+  font-size: 14px !important;
+  margin-bottom: 16px !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Command palette's input box placeholder. */
+.monaco-inputbox input::placeholder {
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+.monaco-inputbox {
+    position: relative
+}
+/* Command Palette */
+.quick-input-widget {
+  position: fixed;
+  margin-left: 0 !important;
+  top: 30% !important;
+  left: 25%  !important;
+  width: 25% !important;
+  padding: 10px 0px 18px 10px !important;
+  backdrop-filter: blur(10px) !important;
+  border-radius: 20px 0px 10px 20px !important;
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Command palette blur background */
+#command-blur {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.15);
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(8px);
+  z-index: 2
+}
+
+
+
+/* Command palette preview box */
+#file-preview {
+  position: fixed;
+  margin-left: 10px !important;
+  top: 30%; /* 与命令面板对齐的顶部位置 */
+  left: 50% !important;
+  width: 30%; /* 预览框的宽度 */
+  height: 40%;
+  max-height: 400px; /* 最大高度 */
+  overflow-y: auto; /* 超出部分可滚动 */
+  border-radius: 0px 12px 12px 12px; /* 圆角 */
+  background-color: rgba(255, 255, 255, 0.9); /* 背景色 */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* 阴影效果 */
+  padding: 10px; /* 内边距 */
+  z-index: 3; /* 确保在 command-blur 之上 */
+}
+
+/* 预览框的文本样式 */
+#file-preview p {
+  margin: 0; /* 去掉默认的边距 */
+  font-family: "Geist Mono", monospace; /* 字体 */
+  font-size: 14px; /* 字号 */
+  color: rgba(0, 0, 0, 0.8); /* 字体颜色 */
+}

@@ -1,0 +1,6 @@
+{
+    "vscode_custom_css.imports": [
+      "file:///Users/alan/replace-your-own-file-path.css",
+      "file:///Users/alan/replace-your-own-file-path.js"
+    ]
+}

@@ -1,0 +1,304 @@
+{
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.cursorSmoothCaretAnimation": "off",
+  "editor.cursorSurroundingLines": 5,
+  "editor.fontFamily": "CaskaydiaCove Nerd Font",
+  "editor.fontLigatures": false,
+  "editor.fontSize": 18,
+  "editor.fontWeight": "300",
+  "editor.inlineSuggest.enabled": true,
+  "editor.lineNumbers": "relative",
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.smoothScrolling": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.suggest.insertMode": "replace",
+  "editor.suggestFontSize": 14,
+  "errorLens.fontStyleItalic": true,
+  // "everforest.italicKeywords": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "extensions.ignoreRecommendations": false,
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "prettier.semi": false,
+  "prettier.singleAttributePerLine": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "projectManager.git.baseFolders": [
+    "$home/workspace",
+    "/Users/alan/repos"
+  ],
+  "projectManager.sortList": "Recent",
+  "sortJSON.orderOverride": [
+    "name",
+    "version",
+    "main",
+    "module",
+    "types",
+    "typings",
+    "files",
+    "publishConfig",
+    "repository",
+    "scripts",
+    "prefix",
+    "description",
+    "body"
+  ],
+  "sortJSON.orderUnderride": [
+    "resolutions",
+    "dependencies",
+    "devDependencies",
+    "peerDependencies",
+    "cSpell.userWords"
+  ],
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "update.showReleaseNotes": false,
+  "vim.foldfix": true,
+  // 浅蓝色+深蓝色字体
+  // "vim.highlightedyank.color": "rgba(173, 216, 230, 1)",
+  // "vim.highlightedyank.enable": true,
+  // "vim.highlightedyank.textColor": "#000080",
+  // 浅黄色+深棕色背景
+  "vim.highlightedyank.color": "rgba(255, 255, 224, 1)",
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.textColor": "#8B4513",
+  "vim.hlsearch": true,
+  "vim.leader": "<space>",
+  "vim.flash.enable": false,
+  "vim.flash.labels": "hklyuiopnm,qwertzxcvbasdgjf;",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "g",
+        "d"
+      ],
+      "after": [
+        "gdzz"
+      ]
+    },
+    {
+      "before": [
+        "j",
+        "k"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "leader",
+        "r"
+      ],
+      "commands": [
+        "editor.action.rename"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "w"
+      ],
+      "commands": [
+        ":w!"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "q"
+      ],
+      "commands": [
+        ":q!"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "x"
+      ],
+      "commands": [
+        ":x!"
+      ]
+    },
+    {
+      "after": [
+        "g",
+        "g",
+        "V",
+        "G"
+      ],
+      "before": [
+        "<c-a>"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "k"
+      ],
+      "commands": [
+        "editor.action.showHover"
+      ]
+    },
+    {
+      "before": [
+        "[",
+        "d"
+      ],
+      "commands": [
+        "editor.action.marker.prev"
+      ]
+    },
+    {
+      "before": [
+        "]",
+        "d"
+      ],
+      "commands": [
+        "editor.action.marker.next"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "c",
+        "a"
+      ],
+      "commands": [
+        "editor.action.quickFix"
+      ]
+    },
+    {
+      "after": [
+        "^"
+      ],
+      "before": [
+        "H"
+      ]
+    },
+    {
+      "after": [
+        "$"
+      ],
+      "before": [
+        "L"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "i"
+      ],
+      "commands": [
+        "extension.toggleBool"
+      ]
+    }
+  ],
+  "vim.useSystemClipboard": true,
+  "workbench.colorTheme": "Ayu Light",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.settings.editor": "json",
+  "zenMode.hideLineNumbers": false,
+  "[go]": {
+      "editor.rulers": [120],
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "golang.go"
+  },
+  "go.formatTool": "gofmt",
+  "go.lintTool": "golangci-lint",
+  "go.lintFlags": [
+      "--fast"
+  ],
+  "go.useLanguageServer": true,
+  "golines.lineLength": 120,
+  // "window.zoomLevel": -1,
+  "editor.wordWrapColumn": 120,
+  "flake8.args": [
+    "--max-line-length=120"
+  ],
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    },
+    "diffEditor.ignoreTrimWhitespace": true
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.confirmSync": false,
+  "[lua]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  //"editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "editor.formatOnSave": false,
+  "editor.formatOnSaveMode": "file", // required to format on save
+  "files.autoSave": "onFocusChange", // optional but recommended
+  "vs-code-prettier-eslint.prettierLast": false,
+  "settingsSync.ignoredExtensions": [
+    "sumneko.lua"
+  ], // set as "true" to run 'prettier' last not first
+  "gohome.hour": 1,
+  "gohome.minute": 26,
+  "activityReminder.interval": 1,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "gongfeng.copilot.enableAutoCompletions": true,
+  "explorer.confirmPasteNative": false,
+  "gitlens.views.commitDetails.files.layout": "tree",
+  "gitlens.ai.experimental.model": "openai:gpt-4o",
+  //-----------------------------------------------------------------------------------
+
+//  "window.zoomPerWindow": true,
+   "window.zoomLevel": -1,
+   // "material-icon-theme.hidesExplorerArrows": true,
+   // "workbench.tree.renderIndentGuides": "none" // 取消worktree 的缩进 更紧凑的布局
+    "workbench.sideBar.location": "right",
+    "go.toolsManagement.autoUpdate": true,
+    "cSpell.userWords": [
+      "bytedance",
+      "Caskaydia",
+      "Contextf",
+      "errorcode",
+      "everforest",
+      "gohome",
+      "gongfeng",
+      "gorm",
+      "hgetall",
+      "hotreload",
+      "Infof",
+      "SPOP",
+      "taskid",
+      "tdsql",
+      "tgrom",
+      "Tlog"
+    ],
+    "projectManager.git.maxDepthRecursion": 10,
+    //   "workbench.activityBar.visible": false
+    "vscode_custom_css.imports": [
+      "file:///Users/alan/custom-vscode-back.css",
+      "file:///Users/alan/custom-vscode-back.js"
+    ],
+
+  }
+
